@@ -1,3 +1,8 @@
+# Changes from original project
+
+in sign.test.js I had to change the test to use tweetnacl library. It wouldn't recognise anything from the libsodium-wrapper.
+
+
 This is a simple exercise in using cryptography with `libsodium.js`. It consists of 2 parts:
 * signing a message
 * decrypting a ciphertext.
